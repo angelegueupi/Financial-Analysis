@@ -57,8 +57,6 @@ with open(csvpath)as budget_data:
     f"--------------------------\n"
     f"greatestprofitdecrease= {greateastdecrease[0]},${greateastdecrease[1]}\n")
 
-    f"total months= {totalmonths}\n"
-    f"--------------------------\n"
     print(output)
 
 
