@@ -1,6 +1,6 @@
 import csv
 import os
-csvpath=os.path.join("budget_data.csv")
+csvpath=os.path.join("Resources", "budget_data.csv")
 print(csvpath)
 
 #variables
