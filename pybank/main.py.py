@@ -1,6 +1,7 @@
 import csv
 import os
 csvpath=os.path.join("Resources", "budget_data.csv")
+outputfile=os.path.join("analysis","budget_analysis.txt")
 print(csvpath)
 
 #variables
@@ -10,6 +11,7 @@ averageprofitlosses=0
 greateastincrease=["",0]
 greateastdecrease=["",0]
 lastmonthprofit=0
+netprofitlosseslist=[]
 
 #code to read the data in the file
 
@@ -33,6 +35,7 @@ with open(csvpath)as budget_data:
 
         netprofitlosses= int(row[1])-lastmonthprofit
         lastmonthprofit=int (row[1])
+        netprofitlosseslist+=[netprofitlosses]
 
         if netprofitlosses> greateastincrease[1]:
            greateastincrease[1]=netprofitlosses
@@ -42,7 +45,7 @@ with open(csvpath)as budget_data:
            greateastdecrease[1] = netprofitlosses
            greateastdecrease[0] = row[0]
 
-    averageprofitlosses= totalprofitlosses/totalmonths
+    averageprofitlosses= sum(netprofitlosseslist)/len(netprofitlosseslist)
     # output
     output =(
     f"Financial analysis\n"
@@ -51,7 +54,7 @@ with open(csvpath)as budget_data:
     f"--------------------------\n"
     f"totalprofitlosses= ${totalprofitlosses}\n"
     f"--------------------------\n"
-    f"averageprofitlosses= ${round (averageprofitlosses,)}\n"
+    f"averageprofitlosses= ${ averageprofitlosses:.2f}\n"
     f"--------------------------\n"
     f"greatestprofitincrease= {greateastincrease[0]}, ${greateastincrease[1]}\n"
     f"--------------------------\n"
@@ -59,7 +62,8 @@ with open(csvpath)as budget_data:
 
     print(output)
 
-
+    with open(outputfile,"w") as txt:
+        txt.write(output)
 
 
 
