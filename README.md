@@ -26,6 +26,8 @@ averageprofitlosses= $-8311.11
 greatestprofitincrease= 16-Aug, $1862002
 --------------------------
 greatestprofitdecrease= 14-Feb,$-1825558
+--------------------------
+
 
 
 
