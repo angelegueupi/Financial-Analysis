@@ -13,7 +13,20 @@ My goal was to create a Python script that analyzes the records to calculate eac
 
 * The greatest decrease in profits (date and amount) over the entire period
 
-Final financial analisis report 
+#Final financial analisis report 
+
+Financial analysis
+--------------------------
+total months= 86
+--------------------------
+totalprofitlosses= $22564198
+--------------------------
+averageprofitlosses= $-8311.11
+--------------------------
+greatestprofitincrease= 16-Aug, $1862002
+--------------------------
+greatestprofitdecrease= 14-Feb,$-1825558
+
 
 
 
