@@ -46,7 +46,7 @@ My  task is to create a Python script that analyzes the votes and calculates eac
 Election Results report
 
 -------------------------
-election results
+Election results
 --------------------------
 total number of votes cast= 369710
 --------------------------
