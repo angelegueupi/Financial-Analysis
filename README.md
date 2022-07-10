@@ -29,6 +29,38 @@ greatestprofitdecrease= 14-Feb,$-1825558
 --------------------------
 
 
+This second part of the challenge called Pypoll, my task was to modernize vote counting processs of a small, rural town. base on a set of poll data called [election_data.csv](PyPoll/Resources/election_data.csv
+
+My  task is to create a Python script that analyzes the votes and calculates each of the following:
+
+* The total number of votes cast
+
+* A complete list of candidates who received votes
+
+* The percentage of votes each candidate won
+
+* The total number of votes each candidate won
+
+* The winner of the election based on popular vote.
+
+Election Results report
+
+-------------------------
+election results
+--------------------------
+total number of votes cast= 369710
+--------------------------
+candidates votes list= $['Charles Casper Stockham', 'Diana DeGette', 'Raymon Anthony Doane']
+--------------------------
+percentage of each candidate= $3.14
+--------------------------
+total number of votes each candidate won= {'Charles Casper Stockham': 85212, 'Diana DeGette': 272892, 'Raymon Anthony Doane': 11607}
+--------------------------
+winner= Diana DeGette
+--------------------------
+
+
+
 
 
 
