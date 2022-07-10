@@ -50,7 +50,7 @@ election results
 --------------------------
 total number of votes cast= 369710
 --------------------------
-candidates votes list= $['Charles Casper Stockham', 'Diana DeGette', 'Raymon Anthony Doane']
+candidates votes list= ['Charles Casper Stockham', 'Diana DeGette', 'Raymon Anthony Doane']
 --------------------------
 percentage of each candidate= $3.14
 --------------------------
