@@ -1,5 +1,5 @@
-# pythonchallenge
-This challenge is subdivide in 2 parts. The first challenge called pybank my task was to create a Python script to analyze the financial records of the company base on a data called [budget_data.csv].
+# pybank 
+This project is subdivide in 2 parts. The first challenge called pybank my task was to create a Python script to analyze the financial records of the company base on a data called [budget_data.csv].
 
 My goal was to create a Python script that analyzes the records to calculate each of the following:
 
